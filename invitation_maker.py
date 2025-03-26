@@ -103,4 +103,4 @@ for name in names:
         pdf.output(os.path.join(output_folder, f"{name}_invite.pdf"))
         os.remove(temp_img_path)  # Clean up temp image after making PDF
 
-print("✅ All invitations created!")
+print("All invitations created!")
